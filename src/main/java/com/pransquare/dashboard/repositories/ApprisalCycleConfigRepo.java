@@ -1,0 +1,12 @@
+package com.pransquare.dashboard.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.pransquare.dashboard.entities.ApprisalCycleConfig;
+
+@Repository
+public interface ApprisalCycleConfigRepo extends JpaRepository<ApprisalCycleConfig, Long> {
+
+    ApprisalCycleConfig findByIsActive(Boolean isActive);
+}
