@@ -1,4 +1,4 @@
-package com.pransqaure.dashboard;
+package com.pransquare.dashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

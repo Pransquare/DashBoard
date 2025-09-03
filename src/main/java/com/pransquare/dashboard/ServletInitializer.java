@@ -1,4 +1,4 @@
-package com.pransqaure.dashboard;
+package com.pransquare.dashboard;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
